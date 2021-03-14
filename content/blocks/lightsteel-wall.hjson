@@ -1,0 +1,13 @@
+type: Wall
+name: Light-Steel_Wall
+description:"Better than copper,worse than titanium.Might deflect bullets."
+health: 1000
+buildCostMultiplier:0.5
+chanceDeflect:0.4
+size:1
+
+requirements: [
+  light-steel/1
+]
+research: core-s
+category:defense
