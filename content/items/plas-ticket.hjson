@@ -1,0 +1,6 @@
+  name: Plastanium Ticket
+  description: "Will be used for buying plastanium.May get to the point where you get plastanium at the start."
+  cost: 1.5
+  hardness: 1
+  flammability: 0.5
+  explosiveness: 0
