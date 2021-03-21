@@ -1,0 +1,55 @@
+type : GenericCrafter
+name : Tiner
+description : "Lets you make mine-tickets to build mines."
+outputItem : {
+ item : mine-ticket
+ amount : 1
+}
+health : 440
+buildCostMultiplier:0.5
+itemCapacity:1000
+craftTime : 60
+size : 2
+hasPower : true
+hasLiquids : false
+hasItems : true
+updateEffect : pulverize
+consumes : {
+ power : 2
+items: {
+      items: [
+        {
+          item: copper
+          amount: 2
+        }
+        {
+         item: lead
+          amount: 1
+        }
+        {
+         item: graphite
+          amount: 10
+        }
+       ]
+      }
+     }
+  requirements: [
+    {
+      item: copper
+      amount: 250
+    }
+    {
+      item: lead
+      amount: 150
+    }
+    {
+      item: graphite
+      amount: 100
+    }
+    {
+      item: plastanium
+      amount: 10
+    }
+  ]
+  category: crafting
+  research: plas-ticketmaker

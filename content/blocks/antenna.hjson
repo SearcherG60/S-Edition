@@ -1,0 +1,19 @@
+type: BaseTurret
+name: Antenna
+description:"High range antenna.Can be used for making radars using logic.Requires no power."
+health:40
+range:1000
+size:1
+rotateSpeed:0
+acceptCoolant:false
+consumesPower:false
+destructable:true
+breakable:true
+requirements: [
+  graphite/1
+  copper/1
+  lopper-ingot/1
+]
+
+research:core-s
+category:logic

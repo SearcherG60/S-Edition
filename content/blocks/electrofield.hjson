@@ -1,0 +1,48 @@
+   type : PowerTurret
+   name : ElectroField
+   description : "Covers a big area and slowly short-circuits the systems of units.Can only be used by the player."
+  targetAir: false
+  targetGround: false
+  health: 300
+  size: 2
+  range:0
+  inaccuracy: 360
+  reloadTime: 4.5
+  shootSound: Spark
+  shootCone: 360
+  shots: 15
+  shootType: {
+   type: LightningBulletType
+   lightningLength: 50
+   damage: 12
+   instantDissapear: true
+}
+  rotateSpeed: 0
+  powerUse: 2.5
+  shootEffect: pulverize
+  recoilAmount: 0
+  cooldown: 0.02
+requirements: [
+    {
+      item: copper
+      amount: 300
+    }
+    {
+      item: lead
+      amount: 50
+    }
+    {
+      item: graphite
+      amount: 15
+    }
+    {
+      item: plastanium
+      amount: 1
+    }
+    {
+      item: lopper-ingot
+      amount: 15
+    }
+]
+   cathegory: turret
+   research: core-s

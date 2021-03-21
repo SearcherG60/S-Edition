@@ -1,0 +1,50 @@
+type : GenericCrafter
+name : Artillery Factory
+description : "Produces 25cm artillery bullets."
+outputItem : {
+ item : 25cm-arb
+ amount : 1
+}
+health : 440
+craftTime : 120
+size : 2
+hasPower : true
+hasLiquids : false
+hasItems : true
+buildCostMultiplier:0.5
+updateEffect : pulverize
+consumes : {
+ power : 1
+items: {
+      items: [
+        {
+          item: pyratite
+          amount: 1
+        }
+        {
+         item: sand
+          amount: 2
+        }
+        {
+         item: lead
+          amount: 5
+        }
+      ]
+     }
+    }
+  requirements: [
+    {
+      item: copper
+      amount: 250
+    }
+    {
+      item: lead
+      amount: 150
+    }
+    {
+      item: graphite
+      amount: 30
+    }
+  ]
+  category: defense
+  research: canonammofac
