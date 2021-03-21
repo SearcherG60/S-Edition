@@ -1,8 +1,0 @@
-{
-  "name": "Lopper-Ingot",
-  "description": "Made using lead and copper.The materials did not formed an alloy so its basicly copper and lead.",
-  "cost": 1.5,
-  "hardness": 1,
-  "flammability": 0,
-  "explosiveness": 0
-}
