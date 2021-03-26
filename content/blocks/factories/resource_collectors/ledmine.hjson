@@ -1,0 +1,34 @@
+type : GenericCrafter
+name : Lead Mine
+description : "Once you build this,you will have a constant lead income."
+outputItem : {
+ item : lead
+ amount : 1
+}
+health : 440
+buildCostMultiplier:0.5
+itemCapacity:10
+craftTime : 45
+size : 1
+researchCostMultiplier:0.5
+hasPower : false
+hasLiquids : false
+hasItems : true
+updateEffect : pulverize
+consumes : {}
+  requirements: [
+    {
+      item: copper
+      amount: 250
+    }
+    {
+      item: lead
+      amount: 50
+    }
+    {
+      item: mine-ticket
+      amount: 1
+    }
+  ]
+  category: crafting
+  research: copmine
