@@ -1,0 +1,30 @@
+ type: CoreBlock
+ name: Core-S
+ description:"An S-Class core."
+ size: 4
+ health:15000
+ buildCostMultiplier:0.5
+ itemCapacity: 20000
+ researchCostMultiplier:0.05
+ requirements: [
+   {
+      item: copper
+      amount:3000
+ }   
+   {
+      item: lead
+      amount:3000
+ }
+    {
+      item: metaglass
+      amount:1500
+ }
+   {
+      item: graphite
+      amount:1500
+ }
+]
+ category: effect
+ research: core-shard
+ unitType: pulsar
+ unitCapModifier: 70
