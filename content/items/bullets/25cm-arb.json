@@ -1,8 +1,0 @@
-{
-  "name": "25cm ARB",
-  "description": "25mm ammo,for artillery.",
-  "cost": 2.5,
-  "hardness": 1,
-  "flammability": 0.3,
-  "explosiveness": 0.5
-}
