@@ -1,8 +1,0 @@
-{
-  "name": "20mm Bullet",
-  "description": "20mm ammo,for small arms like minigun turrets.",
-  "cost": 2.5,
-  "hardness": 1,
-  "flammability": 0.3,
-  "explosiveness": 0.5
-}
