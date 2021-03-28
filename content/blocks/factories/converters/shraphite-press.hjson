@@ -1,0 +1,39 @@
+type : GenericCrafter
+name : Shraphite Press
+description : "This is an inefficent way to make graphite,but its an option."
+outputItem : {
+ item : graphite
+ amount : 2
+}
+health : 440
+buildCostMultiplier:0.5
+researchCostMultiplier:0.5
+craftTime : 200
+size : 2
+hasPower : true
+hasLiquids : false
+hasItems : true
+updateEffect : pulverize
+consumes : {
+ power : 2.5
+items: {
+      items: [
+        {
+          item: sand
+          amount: 5
+        }
+       ]
+      }
+     }
+  requirements: [
+    {
+      item: copper
+      amount: 200
+    }
+    {
+      item: lead
+      amount: 100
+    }
+  ]
+  category: crafting
+  research: core-s
