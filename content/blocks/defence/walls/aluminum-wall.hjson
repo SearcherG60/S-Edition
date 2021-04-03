@@ -1,0 +1,13 @@
+type: Wall
+name: Aluminum Wall
+description:"Not THAT effective but better than nothing.Might reflect bullets."
+health: 390
+buildCostMultiplier:0.5
+chanceDeflect:0.2
+size:1
+
+requirements: [
+  aluminum/1
+]
+research: aluminum-smelter
+category: defense

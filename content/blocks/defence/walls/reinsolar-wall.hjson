@@ -1,0 +1,18 @@
+type: SolarGenerator
+name: Reinforced-SolarArmor
+description:"Heavy-Steel version of the solarwall."
+hasPower:true
+consumesPower:false
+placeableLiquid:true
+absorbLasers:true
+health:2500
+buildCostMultiplier:0.5
+powerProduction: 1.0
+size:1
+
+requirements: [
+   lopper-ingot/1
+   heavy-steel/1
+]
+research:heavysteel-wall
+category:defense
