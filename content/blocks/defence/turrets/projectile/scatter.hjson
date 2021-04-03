@@ -1,0 +1,43 @@
+targetGround:true
+ammoTypes: {
+  lead:{
+      speed: 5
+      collidesTiles : true
+      damage : 25
+      splashDamage : 1.5
+      splashDamageRadius : 30
+      ammoMultiplier : 4
+      width: 7
+      height: 9
+ }
+  scrap:{
+      speed: 5
+      collidesTiles : true
+      damage : 10
+      splashDamage : 1.0
+      splashDamageRadius : 30
+      ammoMultiplier : 5
+      width: 7
+      height: 9
+ }
+  12mm-bullet:{
+      speed: 7
+      collidesTiles : true
+      damage : 30
+      splashDamage : 0
+      splashDamageRadius : 30
+      ammoMultiplier : 1
+      width: 7
+      height: 9
+ }
+  aluminum:{
+      speed: 5
+      collidesTiles : true
+      damage : 15
+      splashDamage : 2.0
+      splashDamageRadius : 30
+      ammoMultiplier : 4
+      width: 7
+      height: 9
+ }
+}

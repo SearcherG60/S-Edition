@@ -1,0 +1,16 @@
+type: Wall
+name: Silicon Floor
+description:"Buildable floor."
+buildCostMultiplier:0.5
+chanceDeflect:0
+size:1
+solid:false
+fillsTile:false
+hasShadows:false
+alwaysReplace:true
+targetable:false
+requirements: [
+  silicon/1
+]
+research: graphite-floor
+category: effect

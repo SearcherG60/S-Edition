@@ -1,0 +1,35 @@
+ type: CoreBlock
+ name: Core-O
+ description:"Operative Class core.For serious missions."
+ size: 4
+ health:25000
+ buildCostMultiplier:0.5
+ alwaysReplace:true
+ itemCapacity: 20000
+ researchCostMultiplier:0.01
+ requirements: [
+   {
+      item: copper
+      amount:7000
+ }   
+   {
+      item: lead
+      amount:5000
+ }
+   {
+      item: graphite
+      amount:3500
+ }
+   {
+      item: light-steel
+      amount:1000
+ }
+   {
+      item: heavy-steel
+      amount:500
+ }
+]
+ category: effect
+ research: core-s
+ unitType: mega
+ unitCapModifier: 150

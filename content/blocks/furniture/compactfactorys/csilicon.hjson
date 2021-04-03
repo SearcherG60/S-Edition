@@ -1,0 +1,47 @@
+type : GenericCrafter
+name : Compact Silicon Smelter
+description : "Compact but slow."
+outputItem : {
+ item : silicon
+ amount : 1
+}
+health : 100
+craftTime : 80
+researchCostMultiplier:0.5
+size : 1
+hasPower : true
+buildCostMultiplier:0.5
+hasLiquids : false
+hasItems : true
+updateEffect : none
+consumes : {
+ power : 0.2
+items: {
+      items: [
+        {
+          item: coal
+          amount: 1
+        }
+        {
+          item: sand
+          amount: 1
+        }
+       ]
+      }
+     }
+  requirements: [
+    {
+      item: copper
+      amount: 2
+    }
+    {
+      item: lead
+      amount: 2
+    }
+    {
+      item: graphite
+      amount: 2
+    }
+ ]
+  category: crafting
+  research: cgraphite

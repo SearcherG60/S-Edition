@@ -1,0 +1,69 @@
+   type: ItemTurret
+  name: Pave
+  description: "Wave in a projectile way."
+  targetAir: false
+  targetGround: true
+  health: 300
+  size: 2
+  reloadTime: 30
+researchCostMultiplier:0.5
+  buildCostMultiplier:0.5
+  recoilAmount: 1
+  consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.1
+      booster: true
+      optional: true
+    }
+  },
+  liquidBoostIntensity: 1.2
+  ammoUseEffect: none
+  shootCone: 20
+  maxAmmo: 90
+  shots: 10
+  rotateSpeed: 30
+  inaccuracy: 15
+  range: 200
+  ammoTypes: {
+   copper: {
+      speed: 5
+      collidesTiles: true
+      damage : 20
+      splashDamage : 0.1
+      splashDamageRadius: 50
+      lifetime:500
+      ammoMultiplier: 5
+      width: 7
+      height: 10
+    }
+12mm-bullet: {
+      speed: 6
+      collidesTiles : true
+      damage : 60
+      splashDamage : 0.5
+      splashDamageRadius : 50
+      ammoMultiplier : 10
+      homingPower:0.5
+      homingRange:150
+      lifetime:500
+      width: 7
+      height: 10
+    }
+  }
+  requirements : [
+    {
+      item : copper
+      amount : 200
+    }
+    {
+      item: lead
+      amount : 150
+    }
+    {
+      item : graphite
+      amount : 15
+    }
+  ]
+  category : turret
+  research : core-s

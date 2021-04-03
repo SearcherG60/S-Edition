@@ -1,0 +1,16 @@
+type: Wall
+name: Titanium Floor
+description:"Buildable floor."
+buildCostMultiplier:0.5
+chanceDeflect:0.2
+size:1
+solid:false
+fillsTile:false
+hasShadows:false
+alwaysReplace:true
+targetable:false
+requirements: [
+  titanium/1
+]
+research: silicon-floor
+category: effect

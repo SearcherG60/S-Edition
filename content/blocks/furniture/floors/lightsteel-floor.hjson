@@ -1,0 +1,16 @@
+type: Wall
+name: LightSteel Floor
+description:"Buildable floor."
+buildCostMultiplier:0.5
+chanceDeflect:0.4
+size:1
+solid:false
+fillsTile:false
+alwaysReplace:true
+hasShadows:false
+targetable:false
+requirements: [
+  light-steel/1
+]
+research: silicon-floor
+category: effect
