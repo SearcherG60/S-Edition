@@ -6,7 +6,7 @@ chanceDeflect:0
 size:1
 solid:false
 fillsTile:false
-hasShadows:false
+hasShadow:false
 alwaysReplace:true
 targetable:false
 requirements: [

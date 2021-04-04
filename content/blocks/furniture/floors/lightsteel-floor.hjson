@@ -7,7 +7,7 @@ size:1
 solid:false
 fillsTile:false
 alwaysReplace:true
-hasShadows:false
+hasShadow:false
 targetable:false
 requirements: [
   light-steel/1
