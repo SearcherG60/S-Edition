@@ -10,4 +10,9 @@ Events.on(ClientLoadEvent, () => {
     eruption.difficulty = 5;
     eruption.alwaysUnlocked = true;
 
+    const magicalGrounds = new SectorPreset("magicalGrounds", Planets.serpulo, 157);
+    magicalGrounds.localizedName = "Magical Grounds";
+    magicalGrounds.difficulty = 7;
+    magicalGrounds.alwaysUnlocked = true;
+
 });
