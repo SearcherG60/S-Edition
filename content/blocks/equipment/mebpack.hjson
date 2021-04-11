@@ -1,0 +1,22 @@
+type:StorageBlock
+name: Mega's BackPack
+description:"Basicly an extra inventory block for block carrier mechs."
+health:300
+size:2
+hasItems:true
+itemCapacity:70
+hasLiquids:true
+liquidCapacity:20
+liquidPressure:2
+floating:true
+fillsTile:false
+targetable:false
+
+requirements:[
+copper/150
+lead/150
+graphite/15
+]
+
+category:effect
+research:core-o

@@ -1,0 +1,62 @@
+   type: ItemTurret
+  name: ???
+  description: "???"
+  targetAir: true
+  targetGround: true
+  health: 300
+  size: 1
+  buildVisibility:hidden
+  inEditor:true
+  inaccuracy: 0.5
+  reloadTime: 5
+  xRand:30
+researchCostMultiplier:0.5
+  buildCostMultiplier:0.5
+  recoilAmount: 0.0
+  consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.1
+      booster: true
+      optional: true
+    }
+  },
+  liquidBoostIntensity: 1.8
+  ammoUseEffect: none
+  shootCone: 50
+  maxAmmo: 250
+  rotateSpeed: 30
+  range: 150
+  ammoTypes: {
+   copper: {
+      speed: 5
+      collidesTiles: true
+      damage : 8
+      splashDamage : 0.1
+      splashDamageRadius: 50
+      ammoMultiplier: 5
+      homingPower:0.3
+      homingRange:50
+      width: 5
+      height: 7
+    }
+12mm-bullet: {
+      speed: 6
+      collidesTiles : true
+      damage : 15
+      splashDamage : 0.5
+      splashDamageRadius : 50
+      ammoMultiplier : 10
+      homingPower:0.4
+      homingRange:50
+      width: 5
+      height: 7
+    }
+  }
+  requirements : [
+     copper/50
+     lead/80
+     thorium/50
+     metaglass/10
+  ]
+category:turret
