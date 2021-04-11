@@ -1,8 +1,0 @@
-{
-  "name": "50cm CNB",
-  "description": "50cm ammo,most likely for cannons.",
-  "cost": 2.5,
-  "hardness": 1,
-  "flammability": 0.5,
-  "explosiveness": 0.8
-}
