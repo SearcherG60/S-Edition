@@ -44,19 +44,19 @@ Events.on(ClientLoadEvent, () => {
 
 
 
-    const eruption = new SectorPreset("eruption", serpilo, 24);
+    const eruption = new SectorPreset("eruption", Planets.serpulo, 0);
     eruption.captureWave = 20;
     eruption.localizedName = "Eruption";
-    eruption.difficulty = 8;
+    eruption.difficulty = 10;
     eruption.alwaysUnlocked = true;
 
 
-    const absoluteZero = new SectorPreset("absoluteZero", serpilo, 0);
+    const absoluteZero = new SectorPreset("absoluteZero", Planets.serpulo, 2);
     absoluteZero.localizedName = "Absolute Zero";
-    absoluteZero.difficulty = 3;
+    absoluteZero.difficulty = 5;
     absoluteZero.alwaysUnlocked = true;
 
-    const magicalGrounds = new SectorPreset("magicalGrounds", serpilo, 75);
+    const magicalGrounds = new SectorPreset("magicalGrounds", Planets.serpulo, 205);
     magicalGrounds.localizedName = "Magical Grounds";
     magicalGrounds.difficulty = 5;
     magicalGrounds.alwaysUnlocked = true;
