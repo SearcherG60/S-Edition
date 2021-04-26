@@ -1,0 +1,68 @@
+   type: ItemTurret
+  name: SeaMine
+  description: "Buildable seamine.Blows up when an enemy is on top of it or the player/logic enters its AI and orders it to explode.Enemys cannot target this."
+  targetAir: false
+  targetGround: true
+  hasLiquids:false
+  solid:false
+  hasShadow:false
+  fillsTile:false
+  requiresWater:true
+  health: 300
+  size: 2
+  reloadTime: 0
+researchCostMultiplier:0.5
+  buildCostMultiplier:0.5
+  recoilAmount: 1
+  targetable:false
+  consumes: {
+  },
+  ammoUseEffect: none
+  shootCone: 360
+  maxAmmo: 50
+  shots: 50
+  rotateSpeed: 0
+  inaccuracy: 15
+  range: 8
+  ammoTypes: {
+   pyratite: {
+      speed: 5
+      collidesTiles: true
+      damage : 50
+      splashDamage : 20
+      lifetime:3
+      splashDamageRadius: 30
+      killShooter:true
+      ammoMultiplier: 25
+      width: 7
+      height: 10
+    }
+blast-compound: {
+      speed: 6
+      collidesTiles : true
+      damage : 100
+      splashDamage : 50
+      splashDamageRadius : 50
+      killShooter:true
+      lifetime:4
+      ammoMultiplier : 50
+      width: 7
+      height: 10
+    }
+  }
+  requirements : [
+    {
+      item : copper
+      amount : 50
+    }
+    {
+      item: graphite
+      amount : 50
+    }
+    {
+      item : silicon
+      amount : 50
+    }
+  ]
+  category : defense
+  research : landmine

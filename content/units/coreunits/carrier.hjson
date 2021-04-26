@@ -1,0 +1,40 @@
+type: flying
+name: Carrier
+description:"Transport type core unit.High payload/item capacity with a tanky design."
+speed: 1
+engineSize:8
+mineTier:2
+mineSpeed:2
+engineOfset:15
+payloadCapacity:50.0
+buildSpeed:1.5
+itemCapacity: 1000
+commandLimit: 5
+hitSize: 12
+accel: 0.2
+flying: true
+health: 700
+armor: 300
+weapons: [
+{
+  name: shocker
+  y: 7
+  x: 0
+  reload: 2
+  inaccuracy:360
+  shootSound:lightning
+  alternate: true
+  ignoreRotation:false
+  rotate:false
+  mirror:false
+  recoil: 0
+  shots: 3
+  ejectEffect: none
+  bullet: {
+      type: LightningBulletType
+      lightningLength:20
+      damage: 40
+   }
+}
+]
+

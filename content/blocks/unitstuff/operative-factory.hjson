@@ -1,0 +1,33 @@
+type: UnitFactory
+name: Operative Unit Constructor
+description: Operation starts from here...
+health: 700
+size: 3
+requirements: [
+copper/100
+lead/100
+heavy-steel/15
+graphite/10
+silicon/20
+]
+plans: [
+    {
+        unit: agent
+        requirements: [silicon/5
+                       light-steel/1]
+        time: 150
+    }
+    {
+        unit: security
+        requirements: [silicon/3
+                       copper/2]
+        time: 200
+    }
+]
+
+
+category: units
+research: core-o
+consumes: {
+    power: 1
+}

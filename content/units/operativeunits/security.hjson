@@ -1,0 +1,51 @@
+type: mech
+name: Security
+description:"Base unit for operative class."
+speed: 1.5
+canDrown: true
+canBoost: true
+targetable:false
+mineTier:3
+buildSpeed:2
+itemCapacity: 50
+commandLimit: 0
+hitSize: 10
+accel: 10
+flying: false
+health: 100
+armor: 200
+
+weapons: [
+{
+  name: o-basic
+  y: 0
+  x: 6
+  reload: 20
+  alternate: false
+  ignoreRotation:false
+  shootSound: shoot
+  rotate:false
+  mirror:false
+  inaccuracy:1
+  recoil: 0.7
+  shots: 1
+  ejectEffect: casing1
+  bullet: {
+      speed: 8
+      width: 7
+      pierce: 1
+      height: 7
+      lifetime: 50
+      damage: 25
+   }
+}
+]
+
+research: {
+    parent: operative-factory
+    requirements:
+    [
+        {item: silicon, amount: 100}
+        {item: light-steel, amount: 100}
+    ]
+}

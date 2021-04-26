@@ -1,0 +1,16 @@
+type: Wall
+name: Plastanium Floor
+description:"Buildable floor."
+buildCostMultiplier:0.5
+chanceDeflect:0.3
+size:1
+solid:false
+fillsTile:false
+hasShadow:false
+alwaysReplace:true
+targetable:false
+requirements: [
+  plastanium/1
+]
+research: titanium-floor
+category: effect

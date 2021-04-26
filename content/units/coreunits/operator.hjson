@@ -1,0 +1,42 @@
+type: mech
+name: Operative
+description:"Operative type core unit.Rapid fire and high command capacity."
+speed: 2
+canDrown: true
+canBoost: true
+targetable:false
+mineTier:3
+buildSpeed:2
+itemCapacity: 50
+commandLimit: 10
+hitSize: 10
+accel: 10
+flying: false
+health: 500
+armor: 50
+weapons: [
+{
+  name: o-commander
+  y: 0
+  x: 6
+  reload: 2
+  alternate: false
+  ignoreRotation:false
+  shootSound: shoot
+  rotate:false
+  mirror:true
+  inaccuracy:10
+  recoil: 0.7
+  shots: 1
+  ejectEffect: none
+  bullet: {
+      speed: 7
+      width: 7
+      pierce: 5
+      height: 7
+      lifetime: 50
+      damage: 10
+   }
+}
+]
+

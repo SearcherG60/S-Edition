@@ -1,0 +1,43 @@
+ type: CoreBlock
+ name: Core-T
+ description:"Overroad Class core.Player spawns as a Carrier."
+ size: 5
+ health:20000
+ buildCostMultiplier:0.5
+ alwaysReplace:true
+ itemCapacity: 12000
+ researchCostMultiplier:0.05
+ requirements: [
+   {
+      item: copper
+      amount:4000
+ }   
+   {
+      item: lead
+      amount:3000
+ }
+   {
+      item: graphite
+      amount:1500
+ }
+   {
+      item: plastanium
+      amount:500
+ }
+   {
+      item: titanium
+      amount:1000
+ }
+   {
+      item: light-steel
+      amount:1000
+ }
+   {
+      item: heavy-steel
+      amount:500
+ }
+]
+ category: effect
+ research: core-s
+ unitType: carrier
+ unitCapModifier: 100

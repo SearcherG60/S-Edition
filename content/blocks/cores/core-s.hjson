@@ -1,0 +1,30 @@
+ type: CoreBlock
+ name: Core-S
+ description:"An S-Class core."
+ size: 4
+ health:15000
+ buildCostMultiplier:0.5
+ itemCapacity: 20000
+ researchCostMultiplier:0.01
+ requirements: [
+   {
+      item: copper
+      amount:4000
+ }   
+   {
+      item: lead
+      amount:3000
+ }
+    {
+      item: metaglass
+      amount:2500
+ }
+   {
+      item: graphite
+      amount:2500
+ }
+]
+ category: effect
+ research: core-shard
+ unitType: shadow
+ unitCapModifier: 70

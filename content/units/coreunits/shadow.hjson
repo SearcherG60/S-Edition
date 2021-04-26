@@ -1,0 +1,40 @@
+type: mech
+name: Shadow
+description: An untargetable sniper.
+speed: 1
+canDrown: true
+canBoost: true
+targetable:false
+mineTier:2
+buildSpeed:1
+itemCapacity: 50
+commandLimit: 2
+hitSize: 10
+accel: 10
+flying: false
+health: 500
+armor: 0
+weapons: [
+{
+  name: shade
+  y: 0
+  x: 6
+  reload: 70
+  alternate: true
+  ignoreRotation:false
+  rotate:false
+  mirror:true
+  recoil: 0.7
+  shots: 1
+  ejectEffect: casing1
+  bullet: {
+      speed: 7
+      pierce: true
+      width: 10
+      height: 25
+      lifetime: 50
+      damage: 300
+   }
+}
+]
+

@@ -1,0 +1,19 @@
+type: MassDriver
+name: FastDriver
+description: "Faster and cheaper version of the mass driver."
+health: 400
+size: 1 
+itemCapacity: 15
+reloadTime: 12
+range: 200
+consumes : {
+}
+
+requirements: [
+copper/50
+lead/50
+graphite/3
+silicon/3
+]
+category: distribution 
+research: core-o

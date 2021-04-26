@@ -1,0 +1,25 @@
+type: Reconstructor
+name: Agent Reconstructor
+description: If you wanna get a little louder...
+health: 700
+size: 3
+researchCostMultiplier: 0.5
+itemCapacity: 800
+upgrades: [
+    [agent,operative],
+]
+consumes: {
+    power: 2
+    items: {
+        items: [
+         light-steel/5
+         lead/5
+        ]
+    }
+}
+requirements: [
+   graphite/100
+   light-steel/10
+]
+category: units
+research: operative-factory

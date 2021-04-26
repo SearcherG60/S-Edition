@@ -1,0 +1,51 @@
+type: mech
+name: Operative
+description:"Little more armored and now has a rifle."
+speed: 1.5
+canDrown: true
+canBoost: true
+targetable:false
+mineTier:3
+buildSpeed:2
+itemCapacity: 50
+commandLimit: 3
+hitSize: 10
+accel: 10
+flying: false
+health: 100
+armor: 300
+
+weapons: [
+{
+  name: o-brifle
+  y: 0
+  x: 6
+  reload: 7
+  alternate: false
+  ignoreRotation:false
+  shootSound: shoot
+  rotate:false
+  mirror:false
+  inaccuracy:1
+  recoil: 0.7
+  shots: 1
+  ejectEffect: casing1
+  bullet: {
+      speed: 8
+      width: 5
+      pierce: 2
+      height: 6
+      lifetime: 50
+      damage: 25
+   }
+}
+]
+
+research: {
+    parent: operative-factory
+    requirements:
+    [
+        {item: silicon, amount: 100}
+        {item: light-steel, amount: 100}
+    ]
+}
